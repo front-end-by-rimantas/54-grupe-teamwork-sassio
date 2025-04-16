@@ -8,7 +8,28 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "Rimantas (https://github.com/belauzas)",
+    "contributors": [
+        {
+            "name": "Paulius",
+            "url": "https://github.com/PauliusKaminskas"
+        },
+        {
+            "name": "Mantas",
+            "url": "https://github.com/MantasKukulskis"
+        },
+        {
+            "name": "Evaldas",
+            "url": "https://github.com/EvaldasPecenkis"
+        },
+        {
+            "name": "Evelina",
+            "url": "https://github.com/Evelinabum"
+        },
+        {
+            "name": "Tadas",
+            "url": "https://github.com/Gvazdaitis"
+        }
+    ],
     "license": "MIT",
     "devDependencies": {
         "dead-server": "^1.0.9"
