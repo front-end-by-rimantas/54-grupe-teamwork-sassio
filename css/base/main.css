@@ -1,10 +1,18 @@
 body,
 body * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
+.bg-sand {
+    background-color: #aaa;
+}
+.bg-header {
+    background-image: linear-gradient(179deg, #e3edf7 0%, white 100%);
 }
