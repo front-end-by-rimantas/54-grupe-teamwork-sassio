@@ -5,11 +5,12 @@
 /* vendor */
 @import '../../css/vendor/font-awesome.min.css';
 /* components */
+@import '../components/header.css';
+@import '../components/hero.css';
 
 /* custom */
 
 /*header*/
-@import '../components/header.css';
 /* Hero*/
 /*About*/
 /*What we do*/
