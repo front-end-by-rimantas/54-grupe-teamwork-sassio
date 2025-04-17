@@ -1,5 +1,4 @@
 export function header() {
-    let activeDemos = false;
     let base = origin + '/';
     let projectName = '';
     if (location.hostname !== 'localhost') {
@@ -8,7 +7,7 @@ export function header() {
     }
     document.head.insertAdjacentHTML('afterbegin', `<base href="${base}">`);
     const menu = [
-        { href: '/demos/', text: 'Demos' },
+        { href: '/demos/', text: 'Demos', id: 'demos' },
         { href: '/about/', text: 'About' },
         { href: '/pages/', text: 'Pages' },
         { href: '/contact/', text: 'Contacts' },
@@ -21,7 +20,7 @@ export function header() {
         if (projectName + link.href === location.pathname) {
             activePage = 'active';
         }
-        if (link.text === 'Demos') {
+        if (link.id === 'demos') {
             menuHTML += `
         <div class="link-wrapper">
         <span class="new">New</span>
@@ -36,7 +35,7 @@ export function header() {
             <nav class="main-nav">
             ${menuHTML}
             </nav>
-            <button class="btn-chat">Let's Chat  <i class="fa fa-commenting"></i></button>
+            <button class="btn-chat">Let's Chat<i class="fa fa-commenting"></i></button>
         </header>`;
     document.body.insertAdjacentHTML('afterbegin', HTML);
 }
