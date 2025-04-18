@@ -7,6 +7,19 @@
 /* components */
 @import '../components/header.css';
 @import '../components/hero.css';
+@import '../components/about.css';
+@import '../components/what-we-do.css';
+@import '../components/get-in-touch.css';
+@import '../components/portfolio.css';
+@import '../components/pricing.css';
+@import '../components/horizontal-line-after-pricing.css';
+@import '../components/testimonial.css';
+@import '../components/contact-me.css';
+@import '../components/blog.css';
+@import '../components/hero-social-media.css';
+@import '../components/horizontal-line-and-footer.css';
+@import '../components/back-to-top-button.css';
+@import '../components/footer-social-media.css';
 
 /* custom */
 
