@@ -3,7 +3,7 @@ export function contactMe() {
         <section class="container">
             <div class="row">
                 <div class="col-12">
-                    HERO CONTENT
+                    
                 </div>
             </div>
         </section>`;

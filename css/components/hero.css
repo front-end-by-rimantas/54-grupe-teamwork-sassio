@@ -3,9 +3,45 @@
 }
 .right-col {
 }
-.right-col .hero {
-    float: right;
+.right-col {
+    display: inline-block;
+    position: relative;
+}
+.hero {
     width: 90%;
+}
+.hero-socials {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    right: -10%;
+    position: absolute;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px #dcd7d7;
+}
+.hero-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 0.1rem solid grey;
+    border-radius: 50%;
+    padding: 0.8rem;
+    width: 3rem;
+    height: 3rem;
+    color: #08203a;
+    cursor: pointer;
+}
+.hero-icon:hover {
+    background-image: linear-gradient(
+        180deg,
+        rgb(255, 0, 118) 0%,
+        rgb(89, 15, 183) 100%
+    );
+    transition: color 1s ease;
+    color: rgb(255, 255, 255);
 }
 .intro1 {
     font-size: 2rem;
