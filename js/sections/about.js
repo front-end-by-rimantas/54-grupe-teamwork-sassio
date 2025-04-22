@@ -7,9 +7,6 @@ export function about() {
                 </div>
             </div>
         </section>`;
-<<<<<<< HEAD
-}
-=======
 
     document.body.insertAdjacentHTML('beforeend', HTML);
     setupNavEvents();
@@ -72,4 +69,3 @@ function setupNavEvents() {
      
 }
 
->>>>>>> a98c72971fa8e7209ed4cf7c4155ce445771c7ac
