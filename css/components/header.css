@@ -1,0 +1,55 @@
+@font-face {
+    font-family: font-awesome;
+    src: url('../../fonts/FontAwesome/fontawesome-webfont.ttf');
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    padding: 2rem;
+}
+.main-header .main-nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.main-header .link {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.main-header .link:hover,
+.main-header .link.active {
+    color: #eb232b;
+}
+.new {
+    background-color: red;
+    height: 1.5rem;
+    width: 2.5rem;
+    display: flex;
+    margin-left: 1.2rem;
+    font-size: 0.8rem;
+    justify-content: center;
+    color: azure;
+    align-items: center;
+    transform: translateY(-1.5rem) translateX(3.8rem);
+}
+.link-wrapper {
+    display: flex;
+    align-items: center;
+}
+.btn-chat {
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 5px;
+    background-color: #08203a;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.fa-commenting {
+    margin-left: 0.8rem;
+}
