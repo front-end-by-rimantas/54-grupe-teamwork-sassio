@@ -1,0 +1,50 @@
+.portfolio .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: center;
+    width: 100%;
+}
+
+.portfolio .txt-1 {
+    color: #e70280;
+    margin-bottom: 13px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 0px;
+}
+
+.portfolio .txt-2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #08203a;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.25;
+    margin-bottom: 3rem;
+}
+
+.portfolio .all-btn {
+    text-align: center;
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+
+.portfolio .btn-1 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    color: #08203a;
+    line-height: 1;
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.portfolio .col-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

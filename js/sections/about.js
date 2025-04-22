@@ -7,4 +7,4 @@ export function about() {
                 </div>
             </div>
         </section>`;
-    
+}
