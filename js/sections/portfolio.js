@@ -3,6 +3,7 @@ export function portfolio() {
         <section class="portfolio container">
             <div class="row">
                 <div class="col-12">
+
                     <p class='txt-1'>Portfolio</p>
                     <p class='txt-2'>My Creative Works</p>
                 </div>
