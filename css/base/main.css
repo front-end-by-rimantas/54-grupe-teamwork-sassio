@@ -39,3 +39,6 @@ body {
 .bg-header {
     background-image: linear-gradient(179deg, #e3edf7 0%, white 100%);
 }
+.bg-hero {
+    background-image: linear-gradient(90deg, #e3edf7 0%, white 100%);
+}
