@@ -31,7 +31,7 @@ export function header() {
     }
     const HTML = `
         <header class="main-header bg-header">
-            <img class="logo" src="../../img/logo.png" alt="logo"></img>
+            <img class="logo" src="./img/logo.png" alt="logo"></img>
             <nav class="main-nav">
             ${menuHTML}
             </nav>
