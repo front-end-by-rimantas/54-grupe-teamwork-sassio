@@ -12,7 +12,12 @@ incididunt ut labore et dolore magna aliqua.</p>
                 <button class='btn-download-cv'>Download CV <i class="fa fa-lg fa-download"></i></button>
                 </div>
                 <div class="right-col col-5">
-                    <img class='hero' src='../../img/hero.png' alt='logo'>
+                <div class='hero-socials bg-hero'>
+                <a href='#' class='hero-icon fa fa-facebook'></a>
+                <a href='#' class='hero-icon fa fa-twitter'></a>
+                <a href='#' class='hero-icon fa fa-instagram'></a>
+                </div>
+                    <img class='hero' src='./img/hero.png' alt='logo'>
                 </div>
             </div>
         </section>`;

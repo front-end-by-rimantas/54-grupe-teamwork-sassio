@@ -20,3 +20,4 @@ export function getInTouch() {
   
     document.body.insertAdjacentHTML('beforeend', html);
   }
+
