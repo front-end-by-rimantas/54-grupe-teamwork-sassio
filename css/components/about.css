@@ -54,7 +54,7 @@
     padding: 0.8rem 2rem;
     border-radius: 0.2em;
     font-size: 1.2rem;
-    background: linear-gradient(103deg, #e3edf7, #ffffff);
+    background: var(--gradient-to-right-gtw);
     color: #0e1c36;
     text-decoration: none;
     font-weight: 600;
@@ -63,7 +63,7 @@
 }
 
 .about .nav-link.active {
-    background: linear-gradient(to right, #590fb7, #ff0076);
+    background: var(--gradient-to-right-ptp);
     color: white;
     box-shadow: 0 0.5rem 1.5rem rgba(255, 0, 118, 0.3);
 }
@@ -111,7 +111,7 @@
     margin-top: 1.875rem;
     padding: 0.75rem 1.75rem;
     border: 0.125rem solid;
-    border-image: linear-gradient(to left, #590fb7, #ff0076);
+    border-image: var(--gradient-to-left-ptp);
     border-image-slice: 1;
     background: transparent;
     color: #08203a;
@@ -130,7 +130,7 @@
     top: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to right, #590fb7, #ff0076);
+    background: var(--gradient-to-right-ptp);
     color: white;
     transition: 0.4s ease;
     z-index: 0;
