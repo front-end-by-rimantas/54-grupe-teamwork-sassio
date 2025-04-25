@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 # Personal
 
 _website design project_
@@ -12,18 +10,18 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-rimantas.github.io/54-grupe-teamwork-sassio/
 
-Design: [Saasio](https://html.themexriver.com/Saasio/index-31.html#)
+Design:[Saasio](https://html.themexriver.com/Saasio/index-31.html#)
 
 ## 🎯 Project features/goals
 
-- Github pages
-- responsive design
-- HTML forms
-- icons / FontAwesome
-- Google Fonts
-- CSS animations
-- JS generated html
-- Favicon
+-   Github pages
+-   responsive design
+-   HTML forms
+-   icons / FontAwesome
+-   Google Fonts
+-   CSS animations
+-   JS generated html
+-   Favicon
 
 ## 🧰 Getting Started
 
@@ -46,21 +44,21 @@ https://git-scm.com
 Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
-   ```sh
-   git clone https://github.com/front-end-by-rimantas/54-grupe-teamwork-sassio.git
-   ```
+    ```sh
+    git clone https://github.com/front-end-by-rimantas/54-grupe-teamwork-sassio.git
+    ```
 2. Install NPM packages
-   ```sh
-   npm i
-   ```
-   or
-   ```sh
-   npm install
-   ```
+    ```sh
+    npm i
+    ```
+    or
+    ```sh
+    npm install
+    ```
 3. Run the server
-   ```sh
-   npm run dev
-   ```
+    ```sh
+    npm run dev
+    ```
 
 ### 🧪 Running tests
 
@@ -89,4 +87,3 @@ https://fonts.google.com/
 https://fontawesome.com/icons
 
 https://realfavicongenerator.net/
->>>>>>> Stashed changes
