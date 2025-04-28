@@ -22,26 +22,46 @@
     --dark: #343a40;
 
     --gradient-to-left-ptp: linear-gradient(to left, #590fb7, #ff0076);
-    --gradient-to-right-ptp:linear-gradient(to right, #590fb7, #ff0076);
-    --gradient-to-top-right-ptp:linear-gradient(to top right, #590fb7, #ff0076);
-    --gradient-to-top-left-ptp:linear-gradient(to top left, #590fb7, #ff0076);
-    --gradient-to-top-ptp:linear-gradient(to top, #590fb7, #ff0076);
-    --gradient-to-bottom-ptp:linear-gradient(to bottom, #590fb7, #ff0076);
-    --gradient-to-bottom-right-ptp:linear-gradient(to bottom right, #590fb7, #ff0076);
-    --gradient-to-bottom-left-ptp:linear-gradient(to bottom left, #590fb7, #ff0076);
+    --gradient-to-right-ptp: linear-gradient(to right, #590fb7, #ff0076);
+    --gradient-to-top-right-ptp: linear-gradient(
+        to top right,
+        #590fb7,
+        #ff0076
+    );
+    --gradient-to-top-left-ptp: linear-gradient(to top left, #590fb7, #ff0076);
+    --gradient-to-top-ptp: linear-gradient(to top, #590fb7, #ff0076);
+    --gradient-to-bottom-ptp: linear-gradient(to bottom, #590fb7, #ff0076);
+    --gradient-to-bottom-right-ptp: linear-gradient(
+        to bottom right,
+        #590fb7,
+        #ff0076
+    );
+    --gradient-to-bottom-left-ptp: linear-gradient(
+        to bottom left,
+        #590fb7,
+        #ff0076
+    );
 
     --gradient-to-top-gtw: linear-gradient(to top, #e3edf7, #ffffff);
     --gradient-to-left-gtw: linear-gradient(to left, #e3edf7, #ffffff);
     --gradient-to-right-gtw: linear-gradient(to right, #e3edf7, #ffffff);
     --gradient-to-bottom-gtw: linear-gradient(to bottom, #e3edf7, #ffffff);
-    --gradient-to-top-right-gtw: linear-gradient(to top right, #e3edf7, #ffffff);
+    --gradient-to-top-right-gtw: linear-gradient(
+        to top right,
+        #e3edf7,
+        #ffffff
+    );
     --gradient-to-top-left-gtw: linear-gradient(to top left, #e3edf7, #ffffff);
-    --gradient-to-bottom-left-gtw: linear-gradient(to bottom left, #e3edf7, #ffffff);
-    --gradient-to-bottom-right-gtw: linear-gradient(to bottom right, #e3edf7, #ffffff);
-
-
-
-
+    --gradient-to-bottom-left-gtw: linear-gradient(
+        to bottom left,
+        #e3edf7,
+        #ffffff
+    );
+    --gradient-to-bottom-right-gtw: linear-gradient(
+        to bottom right,
+        #e3edf7,
+        #ffffff
+    );
 }
 body,
 body * {
@@ -51,8 +71,7 @@ body * {
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-        sans-serif;
+    font-family: Lato;
 }
 
 .bg-sand {
