@@ -1,8 +1,8 @@
 export function getInTouch() {
   const html = `
     
-<section class="get-in section-bg">
-  <div class="contact-box">
+<section class="get-in container section-bg">
+  <div class="row contact-box">
   <div class="contact-left">
   <h4 class="text">Get It Touch</h4>
   <h1 class="title">Have a Project on Your Mind</h1>
