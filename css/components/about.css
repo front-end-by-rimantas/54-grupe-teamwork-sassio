@@ -9,6 +9,10 @@
     
 }
 
+.about {
+    background-color: var(--main-background);
+}
+
 .about .left-side img {
     width: 100%;
     border-radius: 1.25rem;
