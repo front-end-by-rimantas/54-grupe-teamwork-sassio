@@ -13,9 +13,9 @@ incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="right-col">
                 <div class='hero-socials bg-hero'>
-                <a href='#' class='hero-icon fa fa-facebook'></a>
-                <a href='#' class='hero-icon fa fa-twitter'></a>
-                <a href='#' class='hero-icon fa fa-instagram'></a>
+                <a href='#' class='hero-icon fab fa-facebook'></a>
+                <a href='#' class='hero-icon fab fa-twitter'></a>
+                <a href='#' class='hero-icon fab fa-instagram'></a>
                 </div>
                     <img class='hero-img' src='./img/hero.png' alt='logo'>
                 </div>
