@@ -14,6 +14,9 @@
   margin-right: 5rem; 
   outline: 0.2rem #fff9;
   background: var(--gradient-to-right-gtw);
+  box-shadow: 
+    -5px -5px 10px white, 
+     5px  5px 10px rgba(0, 0, 0, 0.15);
 }
 .get-in .text {
   color: #e21bac;
