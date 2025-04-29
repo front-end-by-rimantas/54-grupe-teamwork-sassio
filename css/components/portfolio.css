@@ -6,11 +6,7 @@
     margin: 0 auto;
 }
 
-  .portfolio .container{
-    background-color: var(--main-background);
-  }
-  
-  .portfolio .col-12 {
+.portfolio .col-12 {
     display: flex;
     flex-direction: column;
     align-items: center;
