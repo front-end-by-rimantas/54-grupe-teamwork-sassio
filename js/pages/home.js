@@ -12,7 +12,7 @@ import { blog } from '../sections/blog.js';
 import { heroSocialMedia } from '../sections/hero-social-media.js';
 import { horizontalLineAndFooter } from '../sections/horizontal-line-and-footer.js';
 import { backToTopButton } from '../sections/back-to-top-button.js';
-import { footerSocialMedia } from '../sections/footer-social-media.js';
+import { footer } from '../sections/footer.js';
 // Header
 header();
 // Hero
@@ -42,5 +42,5 @@ horizontalLineAndFooter();
 // Back to the top button
 backToTopButton();
 // Footer social media
-footerSocialMedia();
+footer();
 // Body background
