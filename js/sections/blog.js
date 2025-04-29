@@ -1,3 +1,5 @@
+import { services } from '../data/blog-services.js'
+
 export function blog() {
     const html = `
       <section class="blog container">
@@ -20,25 +22,6 @@ export function blog() {
     `;
   
     document.body.insertAdjacentHTML('beforeend', html);
-  
-    const services = [
-      {
-        title: "Mobile app Landing page Design & app Maintain",
-        image: "https://html.themexriver.com/Saasio/assets/img/port-img-31/blog-3.jpg"
-      },
-      {
-        title: "Mobile app Landing page Design & app Maintain",
-        image: "https://html.themexriver.com/Saasio/assets/img/port-img-31/blog-2.jpg"
-      },
-      {
-        title: "Mobile app Landing page Design & app Maintain",
-        image: "https://html.themexriver.com/Saasio/assets/img/port-img-31/blog-3.jpg"
-      },
-      {
-        title: "Mobile app Landing page Design & app Maintain",
-        image: "https://html.themexriver.com/Saasio/assets/img/port-img-31/blog-2.jpg"
-      }
-    ];
   
     const swiperScript = document.createElement('script');
     swiperScript.src = "https://unpkg.com/swiper/swiper-bundle.min.js";
