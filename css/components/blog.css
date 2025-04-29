@@ -1,5 +1,6 @@
+
 .blog {
-    background-color: #e3edf7;
+    background-color: var(--main-background);
 }
 
 .blog .container {
