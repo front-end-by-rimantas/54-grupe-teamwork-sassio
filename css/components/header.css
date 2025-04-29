@@ -49,3 +49,10 @@
 .fa-commenting {
     margin-left: 0.8rem;
 }
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin: 0 auto 1.5rem;
+    display: block;
+  }
