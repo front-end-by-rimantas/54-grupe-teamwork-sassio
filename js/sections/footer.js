@@ -1,4 +1,4 @@
-export function footerSocialMedia() {
+export function footer() {
     const HTML = `
         <section class="container">
             <div class="row">
