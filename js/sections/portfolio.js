@@ -15,8 +15,9 @@ export function portfolio() {
           <button class='btn-1'>Branding Design</button>
         </div>
       </div>
+      <div id="servicesGrid" class="services-grid"></div>
     </section>
-    <div id="servicesGrid" class="services-grid"></div>
+    
   `;
 
   document.body.insertAdjacentHTML('beforeend', HTML);
