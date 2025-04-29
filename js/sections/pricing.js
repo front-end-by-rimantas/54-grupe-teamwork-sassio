@@ -29,13 +29,13 @@ function createPricingCard(cardData) {
   card.classList.add('pricing-card');
 
   card.innerHTML = `
-    <div class="price">$${cardData.price}</div>
+    <div class="price"><sup>$</sup>${cardData.price}</div>
     <h3 class="plan-name">${cardData.plan}</h3>
     <ul class="features">
       ${cardData.features.map(feature => `<li>${feature}</li>`).join('')}
     </ul>
     <button class="purchase-btn ${cardData.featured ? 'featured-btn' : ''}">
-      Purchase Now <span>+</span>
+      <span>Purchase Now <span class="plus">+</span></span>
     </button>
   `;
 
@@ -46,8 +46,15 @@ function createPricingCard(cardData) {
 function renderPricingCards() {
   const container = document.querySelector('.card-line');
   plans.forEach(plan => {
-    const card = createPricingCard(plan);
-    container.appendChild(card);
+    if (plan.featured) {
+      const featuredCard = createPricingCard(plan);
+      featuredCard.classList.add('featured');
+      container.appendChild(featuredCard);
+    }
+    else {    
+      const card = createPricingCard(plan);
+      container.appendChild(card);
+    }
   });
 }
 
