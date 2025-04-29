@@ -5,6 +5,10 @@
     width: 100%;
     margin: 0 auto;
   }
+
+  .portfolio .container{
+    background-color: var(--main-background);
+  }
   
   .portfolio .col-12 {
     display: flex;
