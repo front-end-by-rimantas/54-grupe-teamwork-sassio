@@ -2,6 +2,8 @@
     max-width: 75rem;
     margin: 0 auto;
     text-align: center;
+    background: #e3edf7;
+
 }
 
 .blog .row {
@@ -29,7 +31,7 @@
     font-size: 3rem;
     font-weight: 700;
     color: #08203a;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 3rem;
 }
 
@@ -97,6 +99,7 @@
     color: #08203a;
     text-align: left;
     word-break: break-word;
+
 }
 
 .swiper {
@@ -170,18 +173,20 @@
     background-color: #c6016b;
 }
 
+
 @media (max-width: 48rem) {
     .blog .txt-2 {
       font-size: 2rem;
     }
-  
+
     .card-content h3 {
       font-size: 1.1rem;
     }
-  
+
     .card-meta {
       flex-direction: column;
       align-items: flex-start;
       gap: 0.3rem;
     }
 }
+
