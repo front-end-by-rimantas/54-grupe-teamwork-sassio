@@ -71,7 +71,10 @@ body * {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    background-color: var(--main-background);
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 .bg-sand {
