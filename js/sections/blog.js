@@ -1,3 +1,5 @@
+import { services } from '../data/blog-services.js'
+
 export function blog() {
     const html = `
       <section class="blog container">
@@ -6,12 +8,13 @@ export function blog() {
             <p class="txt-1">Blog</p>
             <p class="txt-2">Our Latest News & Post</p>
           </div>
-        </div>
+       
         <div class="slider-section">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper"></div>
           </div>
           <div class="swiper-pagination"></div>
+           </div>
         </div>
       </section>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -19,25 +22,6 @@ export function blog() {
     `;
   
     document.body.insertAdjacentHTML('beforeend', html);
-  
-    const services = [
-      {
-        title: "Mobile app Landing page Design & app Maintain",
-        image: "https://html.themexriver.com/Saasio/assets/img/port-img-31/blog-3.jpg"
-      },
-      {
-        title: "Mobile app Landing page Design & app Maintain",
-        image: "https://html.themexriver.com/Saasio/assets/img/port-img-31/blog-2.jpg"
-      },
-      {
-        title: "Mobile app Landing page Design & app Maintain",
-        image: "https://html.themexriver.com/Saasio/assets/img/port-img-31/blog-3.jpg"
-      },
-      {
-        title: "Mobile app Landing page Design & app Maintain",
-        image: "https://html.themexriver.com/Saasio/assets/img/port-img-31/blog-2.jpg"
-      }
-    ];
   
     const swiperScript = document.createElement('script');
     swiperScript.src = "https://unpkg.com/swiper/swiper-bundle.min.js";

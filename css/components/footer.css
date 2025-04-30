@@ -1,0 +1,81 @@
+section.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 8rem 4rem 1.5rem; 
+    min-height: 450px; 
+    background: linear-gradient(to bottom, #ffffff, #e3edf7),
+    url(../../img/footer-bg.jpg);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .footer-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-logo .highlight {
+    color: #ff0076;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    color: #08203a;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 8rem;
+  }
+  
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #e3edf7;
+    box-shadow: -4px -4px 8px #f5f9fc, 4px 4px 8px rgba(127, 163, 199, 0.3);
+    font-size: 1.2rem;
+    color: #08203a;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    background: linear-gradient(to right, #590fb7, #ff0076);
+    color: #fff;
+    transform: scale(1.1);
+  }
+  
+  .footer-bottom {
+    margin-top: 0rem;
+    padding-bottom: 1rem;
+  }
+  
+  .footer-divider {
+    border: none;
+    border-top: 1px solid #cfd8e6;
+    margin: 0 auto 1.5rem;
+    width: 90%;
+  }
+  
+  .footer-copy {
+    font-size: 0.9rem;
+    color: #08203a;
+    margin-top: 0;
+  }
+  
+  .footer-brand {
+    color: #ff0076;
+    font-weight: 600;
+  }
