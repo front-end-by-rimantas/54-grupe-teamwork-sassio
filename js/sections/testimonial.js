@@ -1,19 +1,17 @@
 export function testimonial() {
     const HTML = `
         <section class="testimonial container col-12">
-            <div class="first-row">
-                <div class="left col-5">
+            <div class="first-row row">
+                <div class="left col-6">
                 <h2>Testimonial</h2>
                 <h1>What's our customer say</h1>
                 <p>Labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
 viverra maecenas accumsan lacus vel facilisis.</p>
                 </div>
-                <div class="right col-5">
-                <button class="left-btn btn">
-                <img src="././img/arrow-left.svg" alt="image">
+                <div class="right col-4">
+                <button class="left-btn btn fa fa-long-arrow-left">
                 </button>
-                <button class="right-btn btn">
-                <img src="././img/arrow-right.svg" alt="image">
+                <button class="right-btn btn fa fa-long-arrow-right">
                 </button>
                 </div>
             </div>
@@ -87,7 +85,7 @@ function renderTestimonial(index) {
 function nextTestimonial() {
     const track = document.querySelector('.testimonial-slider');
     if (!track) return;
-    track.style.transform = 'translateX(-100%)';
+    track.style.transform = 'translateX(-50%)';
     setTimeout(() => {
         currentIndex = (currentIndex + 1) % testimonialCustomerData.length;
         renderTestimonial(currentIndex);
@@ -97,7 +95,7 @@ function nextTestimonial() {
 function prevTestimonial() {
     const track = document.querySelector('.testimonial-slider');
     if (!track) return;
-    track.style.transform = 'translateX(100%)';
+    track.style.transform = 'translateX(50%)';
     setTimeout(() => {
         currentIndex =
             (currentIndex - 1 + testimonialCustomerData.length) %
