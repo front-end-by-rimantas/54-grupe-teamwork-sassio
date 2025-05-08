@@ -83,25 +83,39 @@ function renderTestimonial(index) {
     `;
 }
 function nextTestimonial() {
-    const track = document.querySelector('.testimonial-slider');
-    if (!track) return;
-    track.style.transform = 'translateX(-50%)';
-    setTimeout(() => {
-        currentIndex = (currentIndex + 1) % testimonialCustomerData.length;
-        renderTestimonial(currentIndex);
-    }, 500);
+    const slider = document.querySelector('.testimonial-slider');
+    if (!slider) return;
+
+    slider.classList.add('slide-left');
+
+    slider.addEventListener(
+        'animationend',
+        () => {
+            slider.classList.remove('slide-left');
+            currentIndex = (currentIndex + 1) % testimonialCustomerData.length;
+            renderTestimonial(currentIndex);
+        },
+        { once: true }
+    );
 }
 
 function prevTestimonial() {
-    const track = document.querySelector('.testimonial-slider');
-    if (!track) return;
-    track.style.transform = 'translateX(50%)';
-    setTimeout(() => {
-        currentIndex =
-            (currentIndex - 1 + testimonialCustomerData.length) %
-            testimonialCustomerData.length;
-        renderTestimonial(currentIndex);
-    }, 500);
+    const slider = document.querySelector('.testimonial-slider');
+    if (!slider) return;
+
+    slider.classList.add('slide-right');
+
+    slider.addEventListener(
+        'animationend',
+        () => {
+            slider.classList.remove('slide-right');
+            currentIndex =
+                (currentIndex - 1 + testimonialCustomerData.length) %
+                testimonialCustomerData.length;
+            renderTestimonial(currentIndex);
+        },
+        { once: true }
+    );
 }
 
 function initTestimonials() {
